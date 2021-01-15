@@ -1,0 +1,120 @@
+/* 
+
+these are the colors used in the example
+***you can use them if you'd like or you can choose your own***
+
+black - rgb(37, 37, 37)
+blue - rgb(42, 171, 226)
+shadow - rgba(102, 75, 75, .3)
+white - rgb(255, 255, 255) (default value) 
+
+the font is called 'nunito' and can be found on google fonts
+***you can use it if you'd like or you can choose your own***
+
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(37, 37, 37);
+    display: inline-flex;
+    float: right;
+    justify-content: right;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.profile-image {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;   
+    color: black; 
+    position: relative;
+    padding-left: 80%;
+    padding-top: 90px;
+    border: 5px black;
+    box-shadow: rgba(102, 75, 75, .3);
+    
+}
+
+/* .articles {
+    justify-content: right;
+    margin-top: 100px;
+} */
+ol{
+display: block;
+list-style-type: decimal;
+margin-block-start: 20px;
+margin-block-end: 20px;
+margin-inline-start: 20px;
+margin-inline-end:20px;
+padding-inline-start: 40px;
+}
+
+
+
+h1 {
+    color:rgb(42, 171, 226) ;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 25px;
+    color: white;
+}
+
+.text {
+    margin: 150px;
+    padding-right: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.img-gallery {
+    margin-left: 150px;
+}
+
+.view {
+    margin-left: 1000px;
+    color: rgb(42, 171, 226);
+}
+
+.images{
+    width: 20px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center, space-around;
+    align-items: center;
+    margin-left: 300px;
+   
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+}
+
+.code {
+    justify-content: center;
+    display: flex;
+}
+
+.question {
+    margin-left: 1250px;
+    margin-top: 10px;
+}
